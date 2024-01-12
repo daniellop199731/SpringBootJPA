@@ -67,7 +67,8 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return super.toString();
+		return "id: " + this.id + " : name : " + this.name + " : lastaname : " + 
+				this.lastname + " : programming languaje : " + this.programmingLanguage;
 	}		
-	
+ 	
 }
